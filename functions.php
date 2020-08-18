@@ -1,6 +1,8 @@
 <?php 
 
-add_action( 'wp_enqueue_scripts', 'salient_child_enqueue_styles', 100);
+include 'custom/custom.php';
+
+add_action( 'wp_enqueue_scripts', 'salient_child_enqueue_styles');
 
 function salient_child_enqueue_styles() {
 		
